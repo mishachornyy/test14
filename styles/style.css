@@ -1,0 +1,68 @@
+* {
+    font-family: 'PT Sans', sans-serif;
+    /* font-family: 'Playfair Display', serif; */
+
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    box-sizing: border-box;
+
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+}
+.head {
+    margin: 0 auto;
+    padding-top: 40px;
+    max-width: 1109px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+body h1 {
+    text-align:center
+}
+.magazine {
+
+
+}
+.magazine img{
+    height: 100px;
+    width: 100px;
+}
+.magazine p {
+    text-align:center
+}
+
+.main {
+    margin: 0 51px ;
+    padding-top: 40px;
+
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.magazine:hover {
+    fill:red;
+}
+
+.items {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding:  15px;
+}
+
+.card :hover {
+    background:green;
+    color: white;
+}
+
